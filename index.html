@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet"/>
     <title>Vipul Profile</title>
 </head>
 <body>
@@ -15,35 +16,35 @@
     <hr>
     <h2>Typography</h2>
     <p> this is a normal text</p>
-    <small> this is even small text then usual</small>
+    <small> this is even <strong>small</strong> text then usual</small>
     <hr>
     <h2>Containers</h2>
     <h3>Fluid Containers</h3>
-    <div>this is fluid Container and it flows till end of the page</div>
+    <div class="container fluid-container">this is fluid Container and it flows till end of the page</div>
     <h3>Center Container</h3>
-    <div>this is a center container and it will go till specified width</div>
+    <div class="container center-container">this is a center container and it will go till specified width</div>
     <hr>
     <h2>Links</h2>
 
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
+    <a href="/" class="link link-primary">Primary Link</a>
+    <a href="/" class="link link-secondary">Secondary Link</a>
 
     <hr>
     <h2>lists</h2>
     <h3>unordered list</h3>
-    <ul>
+    <ul class="no-bullet">
         <li>one</li>
         <li>two</li>
         <li>three</li>
     </ul>
     <h3>Inline unordered list</h3>
-    <ul>
-        <li>inline one</li>
-        <li>inline two</li>
-        <li>inline three</li>
+    <ul class="no-bullet">
+        <li class="inline-item-list">inline one</li>
+        <li class="inline-item-list">inline two</li>
+        <li class="inline-item-list">inline three</li>
     </ul>
     <h3>reverse order list</h3>
-    <ol>
+    <ol reversed>
         <li>reverse list 1</li>
         <li>reverse list 2</li>
         <li>reverse list 3</li>
@@ -51,25 +52,27 @@
 
     <hr>
     <h2>Nav</h2>
-    <nav>
-        <div>I am Vipul</div>
-        <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/">Products</a></li>
-            <li><a href="/">Blog</a></li>
+    <nav class="navigation">
+        <div class="nav-brand">I am Vipul</div>
+        <ul class="list-align">
+            <li class="inline-item-list"><a href="/" class="link link-active">Home</a></li>
+            <li class="inline-item-list"><a href="/" class="link">Products</a></li>
+            <li class="inline-item-list"><a href="/" class="link">Blog</a></li>
         </ul>
     </nav>
     <hr>
-    <header>
-        <img src="images/codingperson.svg" />
-        <h1>Heading inside hero</h1>
+    <header class="header">
+        <h3>Header</h3>
+        <img class="header-image" src="images/codingperson.svg" />
+        <h1  class="header-heading">Welcome to <span class="heading-inverted">my website</span></h1>
     </header>
-    <footer>
+    <hr>
+    <footer class="footer">
         <h3>Follow me on:</h3>
-        <ul>
-            <li>Facebook</li>
-            <li>Instagram</li>
-            <li>Linkedin</li>
+        <ul class="no-bullet">
+            <li class="inline-item-list">Facebook</li>
+            <li class="inline-item-list">Instagram</li>
+            <li class="inline-item-list">Linkedin</li>
         </ul>
     </footer>
 </body>
