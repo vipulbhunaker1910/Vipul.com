@@ -2,6 +2,7 @@
 
 :root {
     --main-color:#00B0FF;
+    --off-white:#F3F4F6
   }
   hr{
     margin: 1rem 0rem;
@@ -20,6 +21,7 @@
     text-decoration: none;
     padding: 0.5rem 1rem;
  }
+ 
  .link-primary{
     background-color: var(--main-color);
     border-radius: 0.5rem;
@@ -40,8 +42,9 @@
  .navigation{
     background-color: var(--main-color);
     color: white;
-    border-bottom-left-radius: 0.5rem;
+    border-bottom-left-radius: 2rem;
     padding: 1rem;
+    margin: 0;
  }
  .navigation .list-align{
     text-align: right;
@@ -61,17 +64,32 @@
    margin: auto;
  }
  .header .header-heading{
+   text-align: center;
     padding-top: 1rem;
     color: #9ca3af;
  }
- .header.header-heading .heading-inverted{
+ .header span{
     color: var(--main-color);
  }
 
  .footer{
     background-color: var(--main-color);
     color: white;
-    border-bottom-left-radius: 0.5rem;
+    border-top-right-radius: 2rem;
     padding: 1rem;
     text-align: center;
+ }
+ .footer .link{
+   color: white;
+ }
+.section{
+   padding: 2rem;
+   text-align: center;
+}
+ .section h3{
+   text-align: center;
+ }
+
+ .ow{
+   background-color: var(--off-white);
  }
