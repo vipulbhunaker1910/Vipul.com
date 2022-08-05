@@ -43,7 +43,8 @@
     background-color: var(--main-color);
     color: white;
     border-bottom-left-radius: 2rem;
-    padding: 1rem;
+    top: 0px;
+    padding: 1.5rem;
     margin: 0;
  }
  .navigation .list-align{
@@ -51,6 +52,9 @@
  }
  .navigation .link{
     color: white;
+ }
+ .navigation .nav-brand{
+   font-weight: bold;
  }
  .navigation .link-active{
     font-weight: bold;
