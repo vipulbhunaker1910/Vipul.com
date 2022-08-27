@@ -1,11 +1,5 @@
-Hi i am Vipul. Trying to learn JS. Let's have some fun in coding.
+Hi Kindly Check my Portfolio, which contains about breif introduction about me, My Projects and My Blogs.
 
-For now i know
-1. javascript
-1. Node JS
-1. CHALK
-1. REPL.it
-
-Kindly check my website which includes my projects Blogs and my breif intro
+Technologies used- HTML,CSS
 
 
