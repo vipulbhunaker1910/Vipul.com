@@ -46,6 +46,7 @@
     top: 0px;
     padding: 1rem;
     margin: 0;
+    position:sticky;
  }
  .navigation .list-align{
     text-align: right;
